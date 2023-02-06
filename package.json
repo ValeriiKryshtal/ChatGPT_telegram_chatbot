@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt_bot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "HRUN",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}
